@@ -1,0 +1,65 @@
+Q1. what do you mean by comments===>>  A comment is non-executable line.  
+comment is use to write description for your own understanding.  Browser does't
+read the comment..;
+
+##  There are two type of comment.
+	1. => single line comment.
+	2. => Multi-line comment.
+
+  ex.. of single line comment 
+	//this is single line comment.
+	#this is also single line commeht. 
+
+  ex.. of multi-line comment.
+	/*this is multi line comment
+	     this is himanshu
+	     he is a coder */
+
+
+Q2. What is variable.   ===>>  A variable is just a name of  the memory location.
+ 
+11. => A variable is simply a container i.e  use to store numeric and non-numeric type data.
+
+
+	|*Rules of variable decleration*|
+	(*variable in php starts with $ sign*)
+	(*The variable name must begin with a letter or underscore character*)
+	(*A variable name only contain alpha-numeric characxter and underscore(A-z,0-9 and _))
+	(*A variable should nnot contain space*)	
+//addition of two number
+Ex. =>  <?php
+	  $one = 300;
+	  $two = 200;
+	  $third = $one+$two;
+	echo  $third;
+//Destroying php variables 
+<?ph
+$first = "himanshu";
+$second = "kumar";
+$third = "tiwari";
+$forth = $first+$second+$third;
+
+     : echo $forth;
+
+unset($second);
+
+// Output is        |  himanshu tiwari  |
+
+
+|| Inspecting variable contents(variable property)
+  $name = "himanshu";
+  $age = 23;
+  $price = 45.56;
+  $option = true;
+
+echo $name;
+echo $age;
+echo $price;
+echo $option;
+
+|| Output -- string 'himanshu'(length=8);   
+|| Output -- int  23
+|| Output -- float 45.56 
+|| Output -- boolean  true
+
+

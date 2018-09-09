@@ -1,0 +1,29 @@
+ Q1. => Important points about PHP ;
+
+ a.> PHP is loosely type programing language i.e  no need to decleared data type for php variable.
+ b.> PHP is case sencensitive in case of variable.
+ c.> PHP is case insencensitive in case of function().
+ d.> Every variable in php should start with $ symbol.
+ e.> PHP code will execute with the help of Zend engion.
+
+
+Q2. => Important folder in xampp ;
+
+	Once we installed xampp tool sucessfully it will locate one folder inside the drive where you selected, The following foolder is important inside xampp ;   
+  a.>Apache : -  /*Apache is open source*/ :- This folder contain original software of apache server , this follder is available inside "xampp/apache";
+
+  b.>MySql :- This folder contain original software of MySql database , this foklder is located inside "xamp/mysql".
+
+  c.>PHP  :-  This folder contain original software of php  and it is located inside "xamp/php";
+
+  d.>htdoct :- htdoct is a root directory of apache server  Whatever program or project which we are creating those file or project we need to store inside this  
+   	      this folder is located "xamp/htdoct" ; 
+
+
+ Q3. => Flow to creat php program.
+
+ stap1  :   Open any editor;  
+ stap2 :   Creat a new file (ctrl+N);
+ stap3 :   save the file inside the htdoct with xtension  .php; 
+ stap4 :   Write your php code ;
+ stap5 :  Save the file once more time;
